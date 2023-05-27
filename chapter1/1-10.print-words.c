@@ -1,11 +1,15 @@
 #include <stdio.h>
 
+/* copy words from from stdin and place
+    printing each word on a new line
+*/
+
 #define OUT 0
 #define IN 1
 
 int main(void)
 {
-  char c;
+  int c;
   int state;
 
   state = OUT;

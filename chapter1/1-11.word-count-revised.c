@@ -5,7 +5,11 @@
 #define YES 1
 #define NO  0
 
-main() /* count lines, words, chars in input */
+/* count lines, words, chars in input.
+    a word is a sequence of letters (and apostrophes!)
+ */
+
+main() 
 {
     int c, nl, nw, nc, inword;
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/* print Fahrenheit-Celsius table
-for f = 0, 20, ..., 300 */
+/* print Celsius-Fahrenheit table
+for f = 0, 20, ..., 300 in reverse order*/
 
 int main() {
     int lower, upper, step;
