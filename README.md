@@ -1,2 +1,1 @@
-# the-c-programming-language
-Exercises from cc4e.com, based on the book The C Programming Language
+Exercises from The C Programming Language, 2nd Edition by Brian Kernighan and Dennis Ritchie
