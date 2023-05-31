@@ -4,7 +4,7 @@
     from stdin. print totals. 
 */
 
-main () {
+int main (void) {
     int b, t, nl, c;
 
     nl = 1;
@@ -16,4 +16,5 @@ main () {
     }
     
     printf("blanks: %.0d  | lines: %.0d\n", b, nl);
+    return 0;
 }

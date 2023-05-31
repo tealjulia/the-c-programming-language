@@ -12,18 +12,18 @@ int main(void)
   int c;
   int state;
 
-  state = OUT;
+  state = FALSE;
   while ((c = getchar()) != EOF)
   {
     if (c != ' ' && c != '\t' && c != '\n')
     {
       putchar(c);
-      state = IN;
+      state = TRUE;
     }
     else if (state)
     {
       putchar('\n');
-      state = OUT;
+      state = FALSE;
     }
   }
 
